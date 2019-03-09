@@ -9,9 +9,9 @@ server_encryption_options:
     protocol: TLS
 
 client_encryption_options:
-    enabled: true
+    enabled: false
     # If enabled and optional is set to true encrypted and unencrypted connections are handled.
-    optional: false
+    optional: true
     keystore: /opt/cassandra/conf/certs/cassandra.keystore
     keystore_password: cassandra
     truststore: /opt/cassandra/conf/certs/cassandra.truststore
