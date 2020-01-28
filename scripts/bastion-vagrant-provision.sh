@@ -12,10 +12,6 @@ yum install -y jna
 yum install -y jemalloc
 yum install -y net-tools
 
-wget https://bintray.com/thelastpickle/reaper-rpm/rpm -O bintray-thelastpickle-reaper-rpm.repo
-sudo mv bintray-thelastpickle-reaper-rpm.repo /etc/yum.repos.d/
-yum install -y reaper
-
 
 mkdir /home/vagrant/resources
 cp -r /vagrant/resources/* /home/vagrant/resources/

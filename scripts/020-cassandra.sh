@@ -2,7 +2,7 @@
 set -e
 
 
-cassandra_version=3.9
+cassandra_version=3.11.4
 
 echo "Install Cassandra"
 mkdir -p /opt/
@@ -65,3 +65,4 @@ useradd cassandra
 
 echo "Chown files to cassandra"
 chown -R cassandra /opt/cassandra
+
